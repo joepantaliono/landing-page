@@ -8,7 +8,7 @@ scene.add(light);
 
 //camera
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.01, 1000 );
-camera.position.set(0, 300, 300);
+camera.position.set(0, 0, 300);
 
 //renderer
 const renderer = new THREE.WebGLRenderer();
@@ -26,7 +26,7 @@ loader.load("assets/head.gltf", function (gltf) {
 function animate() {
   requestAnimationFrame(animate);
   head.rotation.y += 0.04;
-  head.position.set(-200,455,0);
+  head.position.set(0,0,0);
   renderer.render(scene, camera);
 }
 
