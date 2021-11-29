@@ -1,0 +1,9 @@
+#avatar {
+    height: 125px;
+    width: 125px;
+}
+
+.social-icons a img {
+    height: 40px;
+    width: 40px;
+}
