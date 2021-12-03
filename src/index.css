@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+* {
+  font-family: "Inconsolata", monospace;
+}
+
+nav {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15rem;
+}
+
+.name h2 {
+  position: relative;
+  left: 40vh;
+  width: 100%;
+}
+
+.information {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+}
+
+#me {
+  max-width: 400px;
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+@media only screen and (max-width: 1000px) {
+  .name h2 {
+    position: relative;
+    left: 15vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .name h2 {
+    position: relative;
+    left: 2vh;
+    width: 100%;
+  }
+}
