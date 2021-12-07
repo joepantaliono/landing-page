@@ -1,1 +1,1 @@
-joepantaliono.github.io/landing-page
+http://joepantaliono.github.io/landing-page
